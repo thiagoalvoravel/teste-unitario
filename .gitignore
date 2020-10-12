@@ -24,3 +24,7 @@ hs_err_pid*
 
 .idea/
 TestesUnitarios.iml
+target/
+.classpath
+.project
+.settings/
