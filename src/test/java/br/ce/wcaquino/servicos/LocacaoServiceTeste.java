@@ -24,7 +24,7 @@ public class LocacaoServiceTeste {
 	public ErrorCollector error = new ErrorCollector();
 	
 	@Test
-	public void teste() {
+	public void deveAlugarUmFilme() throws Exception {
 		//cenário
 		Usuario usuario = new Usuario("João");
 		Filme filme = new Filme("Tubarão", 3, 2.5);
